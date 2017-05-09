@@ -4,6 +4,7 @@ class SessionsController < ApplicationController
 
     if user = User.from_omniauth(auth_info)
       session[:user_id] = user.id
+      current_user
     end
 
     redirect_to root_path
