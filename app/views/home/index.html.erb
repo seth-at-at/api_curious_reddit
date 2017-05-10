@@ -1,10 +1,1 @@
-
-<% if current_user %>
-  ID:  <%= current_user.id %> <br>
-  UID:  <%= current_user.uid %> <br>
-  Username:  <%= current_user.username %> <br>
-  Token:  <%= current_user.oauth_token %> <br>
-  Expiration: <%= Time.at(current_user.token_expiration) %> <br>
-   <% else %>
-   <%= link_to "Login with Reddit", reddit_login_path %>
-<% end %>
+<%= link_to "Login with Reddit", reddit_login_path %>

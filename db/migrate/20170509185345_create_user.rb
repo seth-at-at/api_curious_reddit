@@ -3,8 +3,10 @@ class CreateUser < ActiveRecord::Migration[5.0]
     create_table :users do |t|
       t.string :uid
       t.string :username
-      t.string :oauth_token
+      t.string :token
       t.integer :token_expiration
+      t.integer :link_karma
+      t.integer :comment_karma
 
       t.timestamps
     end

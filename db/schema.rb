@@ -18,8 +18,10 @@ ActiveRecord::Schema.define(version: 20170509185345) do
   create_table "users", force: :cascade do |t|
     t.string   "uid"
     t.string   "username"
-    t.string   "oauth_token"
+    t.string   "token"
     t.integer  "token_expiration"
+    t.integer  "link_karma"
+    t.integer  "comment_karma"
     t.datetime "created_at",       null: false
     t.datetime "updated_at",       null: false
   end

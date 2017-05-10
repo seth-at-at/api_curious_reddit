@@ -7,6 +7,6 @@ class SessionsController < ApplicationController
       current_user
     end
 
-    redirect_to root_path
+    redirect_to dashboard_index_path
   end
 end

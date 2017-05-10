@@ -1,0 +1,269 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://oauth.reddit.com/subreddits/mine/subscriber
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer 9QDY2Zr8jruQQuHla5vgoCjoUF0
+      User-Agent:
+      - api_curious by AcidicBread
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Ua-Compatible:
+      - IE=edge
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Expires:
+      - "-1"
+      Cache-Control:
+      - private, s-maxage=0, max-age=0, must-revalidate, max-age=0, must-revalidate
+      X-Ratelimit-Remaining:
+      - '599.0'
+      X-Ratelimit-Used:
+      - '1'
+      X-Ratelimit-Reset:
+      - '530'
+      Set-Cookie:
+      - edgebucket=wnBrsi25EuuoAW6WxP; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+      - loid=0000000000002juwkw.2.1479377678000.Z0FBQUFBQlpFenVlTllwaEZxTmpMUVdpaTF0cmRhSEhqTmloemo2S1I3bVNsb2ZSU2lWYzliUC02ZTAtWklqSko1ZlZQR2RLdGlZQUJiNGxzcFlOODgxc2xvQ0x5M0Z5SUNxVlpTSm5YLXVpdzNmZWRkNmNZZjQ5N0M5OXlvWUtXRm5saWI5amFuSXk;
+        Domain=reddit.com; Max-Age=63071999; Path=/; expires=Fri, 10-May-2019 16:11:10
+        GMT; secure
+      - session_tracker=QkSI096rBKDkPew5X7.0.1494432670474.Z0FBQUFBQlpFenVlbmlfVHBpci1qeXNvSlJQLWI5V19VSHpnb3RERHR1U3FxbldkQVpkSXRwUDFjeE9ONDJ0N2VubUJ6Z1p5WTAyUktCY0MyeXFzcThrUDJ1YWZrS3BNT195UmJvSWJGX29zRG5QdXVveXY1d1NjOGtpMXlOU3QwMVRyQ1R1ZTRMZzU;
+        Domain=reddit.com; Max-Age=7199; Path=/; expires=Wed, 10-May-2017 18:11:10
+        GMT; secure
+      X-Reddit-Tracking:
+      - https://pixel.redditmedia.com/pixel/of_destiny.png?v=aKwpLwPIP9cJblk%2FIaXqpKwFTtCTV6kxElFQlvxLNQkS%2FIgY%2BbEYyS%2BPg71BcriHbtLxun5bSkyF6SLpmkg8qsct6PK28pOd
+      X-Moose:
+      - majestic
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      Content-Length:
+      - '19366'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 10 May 2017 16:11:10 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-den6026-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1494432670.443999,VS0,VE148
+      Vary:
+      - accept-encoding
+      Server:
+      - snooserv
+    body:
+      encoding: UTF-8
+      string: '{"kind": "Listing", "data": {"modhash": null, "children": [{"kind":
+        "t5", "data": {"user_is_contributor": false, "banner_img": "", "submit_text_html":
+        "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Make sure your post
+        is related to science in &lt;em&gt;some&lt;/em&gt; way.&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "user_is_banned": false, "wiki_enabled": true, "show_media":
+        false, "id": "2sw51", "description": "&gt;#\n\n&gt;* **Everything Shitty**\n*
+        [Shitty Multi](http://www.reddit.com/r/shittyshitredditsays+shittytheoryofreddit+shittyhub+shittyearthporn+shittyfoodporn+shittybattlestations+shittybuildingporn+shittyyoushouldknow+shittylifehacks+shittyadvice+shittyadviceanimals+shittyama+shittytodayilearned+shittytechsupport+askashittydoctor+shittyaskcooking+askashittyparent+shittyaskreddit+shittyaskalawyer+askashittymechanic+shittylifeprotips+shittyconspiracy+shittyflutecovers+shittyquotesporn+shittyshortstories+shittypoetry+shittyfantheories+shittyfilmquotes+shittyseduction+shittyphotoshop+shittyragecomics+shittyfifthworldpics+shittyrobots+shittyaskscience+shittyaskhistory+shittysocialscience+askashittyphilosopher+shittyprogramming+shittyengineering+shittyanimalfacts)\n\n&gt;#\n\n&gt;*
+        **Meta**\n* [Shitty Shit Reddit Says](/r/ShittyShitRedditSays)\n* [Shitty
+        Theory Of Reddit](/r/ShittyTheoryOfReddit)\n* [Shitty Hub](/r/shittyhub)\n*
+        [Shitty Network (private)](/r/ShittyNetwork)\n\n&gt;#\n\n&gt;* **ShittySFWporn**\n*
+        [Shitty EarthPorn](/r/ShittyEarthPorn)\n* [Shitty FoodPorn](/r/shittyfoodporn)\n*
+        [Shitty Battle Stations](/r/shittybattlestations)\n* [Shitty Building Porn](/r/ShittyBuildingPorn)\n\n&gt;#\n\n&gt;*
+        **Help/Advice**\n* [Shitty You Should Know](/r/ShittyYouShouldKnow)\n* [Shitty
+        Life Hacks](/r/shittylifehacks)\n* [Shitty Advice](/r/shittyadvice)\n* [Shitty
+        Advice Animals](/r/ShittyAdviceAnimals)\n* [Shitty AMA](/r/ShittyAMA)\n* [Shitty
+        Today I Learned](/r/ShittyTodayILearned)\n* [Shitty Tech Support](/r/shittytechsupport)\n*
+        [Ask A Shitty Doctor](/r/askashittydoctor)\n* [Shitty Ask Cooking](/r/ShittyAskCooking)\n*
+        [Ask A Shitty Parent](/r/AskAShittyParent)\n* [Shitty Ask Reddit](/r/shittyAskreddit)\n*
+        [Shitty Ask A Lawyer](/r/shittyaskalawyer)\n* [Ask A Shitty Mechanic](/r/AskAShittyMechanic)\n*
+        [Shitty Life Pro Tips](/r/ShittyLifeProTips)\n\n&gt;#\n\n&gt;* **Life, Culture
+        &amp; The Arts**\n* [Shitty I Took A Picture](/r/ShittyITAP)\n* [Shitty Flute
+        Covers](/r/shittyflutecovers)\n* [Shitty Quotes Porn](/r/ShittyQuotesPorn)\n*
+        [Shitty Short Stories](/r/shittyshortstories)\n* [Shitty Poetry](/r/ShittyPoetry)\n*
+        [Shitty Fan Theories](/r/ShittyFanTheories)\n* [Shitty Film Quotes](/r/shittyfilmquotes)\n*
+        [Shitty Seduction](/r/ShittySeduction)\n* [Shitty Photoshop](/r/ShittyPhotoshop)\n*
+        [Shitty Rage Comics](/r/shittyragecomics)\n* [Shitty FifthWorldPics](/r/shittyfifthworldpics)\n\n&gt;#\n\n&gt;*
+        **Academics/Science**\n* [Shitty Robots](/r/shittyrobots)\n* [Shitty Ask Science](/r/shittyaskscience)\n*
+        [Shitty Conspiracy](/r/shittyconspiracy)\n* [Shitty Ask History](/r/ShittyAskHistory)\n*
+        [Shitty Social Science](/r/shittysocialscience)\n* [Ask A Shitty Philosopher](/r/askashittyphilosopher)\n*
+        [Shitty Programming](/r/ShittyProgramming)\n* [Shitty Engineering](/r/shittyengineering)\n*
+        [Shitty Animal Facts](/r/ShittyAnimalFacts)\n\n---\n\n&gt;#\n\n&gt;Do you
+        have a question that mainstream science refuses to answer? Are your theories
+        and experiments so bizarre that sensible people tell you they will never be
+        published?  Do you need help building a doomsday machine, or shopping for
+        a monstrous assistant? Then you''ve come to the right place! The esteemed
+        panelists at Shitty Ask Science might be the only people who are willing to  help
+        you! \n\n---\n\n&gt;##RULES OF THE SHITTY SCIENTIFIC METHOD\n [**Dad Jokes**
+        and **Lame Puns** contaminate shitty science.](http://www.reddit.com/r/shittyaskscience/comments/2uy9qq/mit_researchers_announce_stunning_breakthrough/)\nWe
+        reserve the right to remove all Dad Jokes and throw them in the pile of hazardous
+        waste behind our laboratory. \n\n\n&gt;THE FOLLOWING SUBJECTS HAVE BEEN THOROUGHLY
+        RESEARCHED AND ARE NO LONGER CONSIDERED SCIENCE. PLEASE DON''T USE THEM.\n\n&gt;1.
+        Farts, poop, pee, and shit.\n2. Basic bitches.\n3. Homosexual Sapiens.\n4.
+        The conversion rate of fuck-tons and shit-loads.\n5. Being what you eat, or
+        a percentage of something.\n6. Fat peoples'' interaction with gravity\n7.
+        Genetic jeans.\n8. Space vacuum cleaners.\n9. Speed of heavy and/or dark.\n10.
+        Sharp things that taste like blood.\n11. The fact that heat rises but mountains,
+        the North Pole, and outer space are still cold. \n12. Making planes out of
+        black boxes. \n13. Shaving with Occam''s razor.\n14. Energy drink equations.\n15.
+        The well-established relationship between autism and vaccines.\n16. Steel
+        fuel. Jet memes. Steel memes. Steal beams. \n17. God.\n18. Pokemon.\n19. Questioning
+        dead people.\n20. Degrees of murder and other crimes in Celsius or Fahrenheit.
+        \n21. Blurry Japanese genetalia.\n22. ISIS in space.\n23. The deadly youth
+        in Asia.\n24. Solving global warming with air conditioners.\n25. Upside-down
+        Australians, almond milk, gender fluids, and anything else we''ve seen a million
+        times already.\n26. Asking why meteors land in craters **will result in a
+        permanent ban!**\n\n&gt;Also, no one named Nagi allowed. He is almost as bad
+        at memes as he is at L4D2\n\n\n\n&gt;##MEMES (IMAGE MACROS) ARE BANNED\n\n---\n     \n&gt;##[Shitty
+        Twitter] (http://twitter.com/ShittyAskSci)\n\n\n---\n\n    \n&gt;#More Bathroom
+        Reading \n\n&gt;/r/verypunny\n\n&gt;/r/ShittyTodayILearned\n\n&gt;/r/mspaintbattles\n\n&gt;/r/Dadjokes\n\n
+        &gt;/r/ShittyAskSciFi\n     \n&gt; /r/MagicSkyFairy\n     \n&gt; /r/medievalworldproblems\n\n&gt;
+        /r/AskScienceFiction \n     \n&gt; /r/physicsjokes\n\n&gt; /r/howtonotgiveafuck\n     \n&gt;
+        /r/funny \n     \n&gt; /r/Circlejerk  \n\n&gt; /r/shittypolitics \n\n&gt;
+        /r/ShittyAnimalFacts\n\n&gt; /r/holdmybeaker\n\n&gt; /r/Meirl\n\n---\n\n&gt;##[The
+        Shitty Ask Science Refrigerator] (http://www.reddit.com/r/shittyaskscience/wiki/faq)\nA
+        list of scientific contributions that Mommy and Daddy are sooo proud of.\n\n     \nSpecial
+        thanks to [leroy_twiggles](http://www.reddit.com/user/leroy_twiggles) for
+        our logo\n\n[]\n(https://twitter.com/ShittyAskSci)\n\n[]\n(#Victoria)\n\n[]\n(http://www.reddit.com/r/shittyaskscience/comments/30kgp1/fellow_colleagues_i_have_made_an_easy_to_read/)\n\n[]\n(https://www.reddit.com/r/shittyaskscience/comments/30kgp1/fellow_colleagues_i_have_made_an_easy_to_read/)\n\n[]\n(https://www.reddit.com/r/projecterddos/)\n\n[]\n(https://www.reddit.com/r/shittyaskscience/comments/41n1p6/competition_time_suggest_some_rules_and_well/)\n\n[]\n(https://www.youtube.com/watch?v=2KK_kzrJPS8)\n",
+        "submit_text": "Make sure your post is related to science in *some* way.",
+        "display_name": "shittyaskscience", "header_img": "https://b.thumbs.redditmedia.com/xj9-SwUUHdKUTtF4ml7NdrrDoetMtZrA1bDl60b02rg.png",
+        "description_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;blockquote&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Everything
+        Shitty&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"http://www.reddit.com/r/shittyshitredditsays+shittytheoryofreddit+shittyhub+shittyearthporn+shittyfoodporn+shittybattlestations+shittybuildingporn+shittyyoushouldknow+shittylifehacks+shittyadvice+shittyadviceanimals+shittyama+shittytodayilearned+shittytechsupport+askashittydoctor+shittyaskcooking+askashittyparent+shittyaskreddit+shittyaskalawyer+askashittymechanic+shittylifeprotips+shittyconspiracy+shittyflutecovers+shittyquotesporn+shittyshortstories+shittypoetry+shittyfantheories+shittyfilmquotes+shittyseduction+shittyphotoshop+shittyragecomics+shittyfifthworldpics+shittyrobots+shittyaskscience+shittyaskhistory+shittysocialscience+askashittyphilosopher+shittyprogramming+shittyengineering+shittyanimalfacts\"&gt;Shitty
+        Multi&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Meta&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a
+        href=\"/r/ShittyShitRedditSays\"&gt;Shitty Shit Reddit Says&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a
+        href=\"/r/ShittyTheoryOfReddit\"&gt;Shitty Theory Of Reddit&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a
+        href=\"/r/shittyhub\"&gt;Shitty Hub&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a
+        href=\"/r/ShittyNetwork\"&gt;Shitty Network (private)&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;ShittySFWporn&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a
+        href=\"/r/ShittyEarthPorn\"&gt;Shitty EarthPorn&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a
+        href=\"/r/shittyfoodporn\"&gt;Shitty FoodPorn&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a
+        href=\"/r/shittybattlestations\"&gt;Shitty Battle Stations&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a
+        href=\"/r/ShittyBuildingPorn\"&gt;Shitty Building Porn&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Help/Advice&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a
+        href=\"/r/ShittyYouShouldKnow\"&gt;Shitty You Should Know&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a
+        href=\"/r/shittylifehacks\"&gt;Shitty Life Hacks&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a
+        href=\"/r/shittyadvice\"&gt;Shitty Advice&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a
+        href=\"/r/ShittyAdviceAnimals\"&gt;Shitty Advice Animals&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a
+        href=\"/r/ShittyAMA\"&gt;Shitty AMA&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a
+        href=\"/r/ShittyTodayILearned\"&gt;Shitty Today I Learned&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a
+        href=\"/r/shittytechsupport\"&gt;Shitty Tech Support&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a
+        href=\"/r/askashittydoctor\"&gt;Ask A Shitty Doctor&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a
+        href=\"/r/ShittyAskCooking\"&gt;Shitty Ask Cooking&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a
+        href=\"/r/AskAShittyParent\"&gt;Ask A Shitty Parent&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a
+        href=\"/r/shittyAskreddit\"&gt;Shitty Ask Reddit&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a
+        href=\"/r/shittyaskalawyer\"&gt;Shitty Ask A Lawyer&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a
+        href=\"/r/AskAShittyMechanic\"&gt;Ask A Shitty Mechanic&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a
+        href=\"/r/ShittyLifeProTips\"&gt;Shitty Life Pro Tips&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Life,
+        Culture &amp;amp; The Arts&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"/r/ShittyITAP\"&gt;Shitty
+        I Took A Picture&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"/r/shittyflutecovers\"&gt;Shitty
+        Flute Covers&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"/r/ShittyQuotesPorn\"&gt;Shitty
+        Quotes Porn&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"/r/shittyshortstories\"&gt;Shitty
+        Short Stories&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"/r/ShittyPoetry\"&gt;Shitty
+        Poetry&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"/r/ShittyFanTheories\"&gt;Shitty
+        Fan Theories&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"/r/shittyfilmquotes\"&gt;Shitty
+        Film Quotes&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"/r/ShittySeduction\"&gt;Shitty
+        Seduction&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"/r/ShittyPhotoshop\"&gt;Shitty
+        Photoshop&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"/r/shittyragecomics\"&gt;Shitty
+        Rage Comics&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"/r/shittyfifthworldpics\"&gt;Shitty
+        FifthWorldPics&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Academics/Science&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a
+        href=\"/r/shittyrobots\"&gt;Shitty Robots&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a
+        href=\"/r/shittyaskscience\"&gt;Shitty Ask Science&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a
+        href=\"/r/shittyconspiracy\"&gt;Shitty Conspiracy&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a
+        href=\"/r/ShittyAskHistory\"&gt;Shitty Ask History&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a
+        href=\"/r/shittysocialscience\"&gt;Shitty Social Science&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a
+        href=\"/r/askashittyphilosopher\"&gt;Ask A Shitty Philosopher&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a
+        href=\"/r/ShittyProgramming\"&gt;Shitty Programming&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a
+        href=\"/r/shittyengineering\"&gt;Shitty Engineering&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a
+        href=\"/r/ShittyAnimalFacts\"&gt;Shitty Animal Facts&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/blockquote&gt;\n\n&lt;hr/&gt;\n\n&lt;blockquote&gt;\n&lt;p&gt;Do
+        you have a question that mainstream science refuses to answer? Are your theories
+        and experiments so bizarre that sensible people tell you they will never be
+        published?  Do you need help building a doomsday machine, or shopping for
+        a monstrous assistant? Then you&amp;#39;ve come to the right place! The esteemed
+        panelists at Shitty Ask Science might be the only people who are willing to  help
+        you! &lt;/p&gt;\n&lt;/blockquote&gt;\n\n&lt;hr/&gt;\n\n&lt;blockquote&gt;\n&lt;h2&gt;RULES
+        OF THE SHITTY SCIENTIFIC METHOD&lt;/h2&gt;\n\n&lt;p&gt;&lt;a href=\"http://www.reddit.com/r/shittyaskscience/comments/2uy9qq/mit_researchers_announce_stunning_breakthrough/\"&gt;&lt;strong&gt;Dad
+        Jokes&lt;/strong&gt; and &lt;strong&gt;Lame Puns&lt;/strong&gt; contaminate
+        shitty science.&lt;/a&gt;\nWe reserve the right to remove all Dad Jokes and
+        throw them in the pile of hazardous waste behind our laboratory. &lt;/p&gt;\n\n&lt;p&gt;THE
+        FOLLOWING SUBJECTS HAVE BEEN THOROUGHLY RESEARCHED AND ARE NO LONGER CONSIDERED
+        SCIENCE. PLEASE DON&amp;#39;T USE THEM.&lt;/p&gt;\n\n&lt;ol&gt;\n&lt;li&gt;Farts,
+        poop, pee, and shit.&lt;/li&gt;\n&lt;li&gt;Basic bitches.&lt;/li&gt;\n&lt;li&gt;Homosexual
+        Sapiens.&lt;/li&gt;\n&lt;li&gt;The conversion rate of fuck-tons and shit-loads.&lt;/li&gt;\n&lt;li&gt;Being
+        what you eat, or a percentage of something.&lt;/li&gt;\n&lt;li&gt;Fat peoples&amp;#39;
+        interaction with gravity&lt;/li&gt;\n&lt;li&gt;Genetic jeans.&lt;/li&gt;\n&lt;li&gt;Space
+        vacuum cleaners.&lt;/li&gt;\n&lt;li&gt;Speed of heavy and/or dark.&lt;/li&gt;\n&lt;li&gt;Sharp
+        things that taste like blood.&lt;/li&gt;\n&lt;li&gt;The fact that heat rises
+        but mountains, the North Pole, and outer space are still cold. &lt;/li&gt;\n&lt;li&gt;Making
+        planes out of black boxes. &lt;/li&gt;\n&lt;li&gt;Shaving with Occam&amp;#39;s
+        razor.&lt;/li&gt;\n&lt;li&gt;Energy drink equations.&lt;/li&gt;\n&lt;li&gt;The
+        well-established relationship between autism and vaccines.&lt;/li&gt;\n&lt;li&gt;Steel
+        fuel. Jet memes. Steel memes. Steal beams. &lt;/li&gt;\n&lt;li&gt;God.&lt;/li&gt;\n&lt;li&gt;Pokemon.&lt;/li&gt;\n&lt;li&gt;Questioning
+        dead people.&lt;/li&gt;\n&lt;li&gt;Degrees of murder and other crimes in Celsius
+        or Fahrenheit. &lt;/li&gt;\n&lt;li&gt;Blurry Japanese genetalia.&lt;/li&gt;\n&lt;li&gt;ISIS
+        in space.&lt;/li&gt;\n&lt;li&gt;The deadly youth in Asia.&lt;/li&gt;\n&lt;li&gt;Solving
+        global warming with air conditioners.&lt;/li&gt;\n&lt;li&gt;Upside-down Australians,
+        almond milk, gender fluids, and anything else we&amp;#39;ve seen a million
+        times already.&lt;/li&gt;\n&lt;li&gt;Asking why meteors land in craters &lt;strong&gt;will
+        result in a permanent ban!&lt;/strong&gt;&lt;/li&gt;\n&lt;/ol&gt;\n\n&lt;p&gt;Also,
+        no one named Nagi allowed. He is almost as bad at memes as he is at L4D2&lt;/p&gt;\n\n&lt;h2&gt;MEMES
+        (IMAGE MACROS) ARE BANNED&lt;/h2&gt;\n&lt;/blockquote&gt;\n\n&lt;hr/&gt;\n\n&lt;blockquote&gt;\n&lt;h2&gt;&lt;a
+        href=\"http://twitter.com/ShittyAskSci\"&gt;Shitty Twitter&lt;/a&gt;&lt;/h2&gt;\n&lt;/blockquote&gt;\n\n&lt;hr/&gt;\n\n&lt;blockquote&gt;\n&lt;h1&gt;More
+        Bathroom Reading&lt;/h1&gt;\n\n&lt;p&gt;&lt;a href=\"/r/verypunny\"&gt;/r/verypunny&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a
+        href=\"/r/ShittyTodayILearned\"&gt;/r/ShittyTodayILearned&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a
+        href=\"/r/mspaintbattles\"&gt;/r/mspaintbattles&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a
+        href=\"/r/Dadjokes\"&gt;/r/Dadjokes&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a
+        href=\"/r/ShittyAskSciFi\"&gt;/r/ShittyAskSciFi&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a
+        href=\"/r/MagicSkyFairy\"&gt;/r/MagicSkyFairy&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a
+        href=\"/r/medievalworldproblems\"&gt;/r/medievalworldproblems&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a
+        href=\"/r/AskScienceFiction\"&gt;/r/AskScienceFiction&lt;/a&gt; &lt;/p&gt;\n\n&lt;p&gt;&lt;a
+        href=\"/r/physicsjokes\"&gt;/r/physicsjokes&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a
+        href=\"/r/howtonotgiveafuck\"&gt;/r/howtonotgiveafuck&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a
+        href=\"/r/funny\"&gt;/r/funny&lt;/a&gt; &lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"/r/Circlejerk\"&gt;/r/Circlejerk&lt;/a&gt;  &lt;/p&gt;\n\n&lt;p&gt;&lt;a
+        href=\"/r/shittypolitics\"&gt;/r/shittypolitics&lt;/a&gt; &lt;/p&gt;\n\n&lt;p&gt;&lt;a
+        href=\"/r/ShittyAnimalFacts\"&gt;/r/ShittyAnimalFacts&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a
+        href=\"/r/holdmybeaker\"&gt;/r/holdmybeaker&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a
+        href=\"/r/Meirl\"&gt;/r/Meirl&lt;/a&gt;&lt;/p&gt;\n&lt;/blockquote&gt;\n\n&lt;hr/&gt;\n\n&lt;blockquote&gt;\n&lt;h2&gt;&lt;a
+        href=\"http://www.reddit.com/r/shittyaskscience/wiki/faq\"&gt;The Shitty Ask
+        Science Refrigerator&lt;/a&gt;&lt;/h2&gt;\n\n&lt;p&gt;A list of scientific
+        contributions that Mommy and Daddy are sooo proud of.&lt;/p&gt;\n&lt;/blockquote&gt;\n\n&lt;p&gt;Special
+        thanks to &lt;a href=\"http://www.reddit.com/user/leroy_twiggles\"&gt;leroy_twiggles&lt;/a&gt;
+        for our logo&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://twitter.com/ShittyAskSci\"&gt;&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a
+        href=\"#Victoria\"&gt;&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"http://www.reddit.com/r/shittyaskscience/comments/30kgp1/fellow_colleagues_i_have_made_an_easy_to_read/\"&gt;&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a
+        href=\"https://www.reddit.com/r/shittyaskscience/comments/30kgp1/fellow_colleagues_i_have_made_an_easy_to_read/\"&gt;&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a
+        href=\"https://www.reddit.com/r/projecterddos/\"&gt;&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a
+        href=\"https://www.reddit.com/r/shittyaskscience/comments/41n1p6/competition_time_suggest_some_rules_and_well/\"&gt;&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a
+        href=\"https://www.youtube.com/watch?v=2KK_kzrJPS8\"&gt;&lt;/a&gt;&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "title": "shittyaskscience: the same as askscience, but shittier",
+        "collapse_deleted_comments": true, "public_description": "The cat, Schr\u00f6dinger.
+        Is it alive or dead? **ALIVE OR DEAD!?**", "over18": false, "public_description_html":
+        "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;The cat, Schr\u00f6dinger.
+        Is it alive or dead? &lt;strong&gt;ALIVE OR DEAD!?&lt;/strong&gt;&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "spoilers_enabled": true, "icon_size": null, "suggested_comment_sort":
+        null, "icon_img": "", "header_title": "Grab Science by the pussy again!",
+        "display_name_prefixed": "r/shittyaskscience", "user_is_muted": false, "submit_link_label":
+        "Link To Shitty Research", "accounts_active": null, "public_traffic": false,
+        "header_size": [142, 50], "subscribers": 409077, "submit_text_label": "Submit
+        A Shitty Question", "key_color": "#25b79f", "lang": "en", "whitelist_status":
+        "all_ads", "name": "t5_2sw51", "created": 1316494686.0, "url": "/r/shittyaskscience/",
+        "quarantine": false, "hide_ads": false, "created_utc": 1316465886.0, "banner_size":
+        null, "user_is_moderator": false, "accounts_active_is_fuzzed": null, "advertiser_category":
+        null, "user_sr_theme_enabled": true, "allow_images": true, "show_media_preview":
+        false, "comment_score_hide_mins": 0, "subreddit_type": "public", "submission_type":
+        "any", "user_is_subscriber": true}}], "after": null, "before": null}}'
+    http_version: 
+  recorded_at: Wed, 10 May 2017 16:11:10 GMT
+recorded_with: VCR 3.0.3

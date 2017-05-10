@@ -1,0 +1,14 @@
+  ID:  <%= current_user.id %> <br>
+  UID:  <%= current_user.uid %> <br>
+  Username:  <%= current_user.username %> <br>
+  Token:  <%= current_user.token %> <br>
+  Expiration: <%= Time.at(current_user.token_expiration) %> <br>
+  Link Karma: <%= current_user.link_karma %> <br>
+  Comment Karma: <%= current_user.comment_karma %> <br>
+<%#= link_to "My Subreddits", "https://www.reddit.com/subreddits/mine/subscriber" %> <br>
+
+<% @services.subreddits.each do |subreddit| %>
+  <h2><%= subreddit[:data][:display_name] %> <br> </h2>
+  <%= subreddit[:data][:title] %> <br>
+  <%= subreddit[:data][:url] %> <br>
+<% end %>
