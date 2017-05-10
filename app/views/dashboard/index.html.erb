@@ -7,8 +7,9 @@
   Comment Karma: <%= current_user.comment_karma %> <br>
 <%#= link_to "My Subreddits", "https://www.reddit.com/subreddits/mine/subscriber" %> <br>
 
+<h3>Subreddits</h3>
 <% @services.subreddits.each do |subreddit| %>
-  <h2><%= subreddit[:data][:display_name] %> <br> </h2>
+  <strong><%= subreddit[:data][:display_name] %></strong> <br>
   <%= subreddit[:data][:title] %> <br>
   <%= subreddit[:data][:url] %> <br>
 <% end %>
