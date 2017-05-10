@@ -6,7 +6,7 @@ describe Subreddit do
                        uid: "2juwkw",
                        link_karma: 1,
                        comment_karma: 0,
-                       token: "9QDY2Zr8jruQQuHla5vgoCjoUF0")
+                       token: "faketoken")
     VCR.use_cassette("services") do
       user.token
     end

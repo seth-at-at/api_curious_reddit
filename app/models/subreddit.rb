@@ -10,10 +10,10 @@ class Subreddit
     @url  = url
   end
 
-  def self.all(token)
-    serv = RedditService.new(token)
-    serv.subreddits.map do |subreddit|
-      Subreddit.new(subreddit[:data][:display_name], subreddit[:data][:url])
-    end
-  end
+  # def self.all(token)
+  #   serv = RedditService.new(token)
+  #   serv.subreddits.map do |subreddit|
+  #     Subreddit.new(subreddit[:data][:display_name], subreddit[:data][:url])
+  #   end
+  # end
 end
