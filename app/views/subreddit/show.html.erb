@@ -1,0 +1,4 @@
+<h2>Your Subreddits</h2>
+
+  <h4><%= link_to @subreddit[:data][:display_name].capitalize, @subreddit_show_path %>:</h4> <%= @subreddit[:data][:subscribers]%> subscribers <br>
+  <%= @subreddit[:data][:title].capitalize %></a> <br> <br>
